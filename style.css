@@ -965,14 +965,14 @@ footer h1 {
   .project-card {
     flex-direction: column;
     gap: 30px;
-    margin-left: 27%;
+    margin-left: 20%;
   }
 
   .project-vidbox {
-    display: flexbox;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 50%;
     gap: 40px;
   }
 
