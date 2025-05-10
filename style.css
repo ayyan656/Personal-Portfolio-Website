@@ -50,7 +50,8 @@ header {
 }
 
 .left img {
-  width: 40px;
+  width: 100px;
+  height: 100px;
   margin: 0 15px;
 }
 
@@ -876,6 +877,8 @@ footer h1 {
     font-size: 25px;
   }
 
+ 
+
   .blackhole-box video {
     margin-top: -16%;
   }
@@ -1077,3 +1080,12 @@ footer h1 {
       animation: hoverAnimation 3s ease-in-out infinite;
     }
 }
+
+ @media screen and (max-width: 768px) {
+   .container {
+     gap: 50px;
+     /* reduce spacing */
+     padding: 15px;
+     /* more compact padding */
+   }
+ }
